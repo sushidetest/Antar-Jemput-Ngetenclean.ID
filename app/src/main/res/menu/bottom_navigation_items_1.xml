@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/cek_pesanan"
+        android:icon="@drawable/cek"
+        android:title="Cek Pesanan"/>
+    <item
+        android:id="@+id/laporan_transaksi"
+        android:icon="@drawable/laporan"
+        android:title="Laporan Transaksi"/>
+    <item
+        android:id="@+id/konfigurasi"
+        android:icon="@drawable/setting"
+        android:title="Konfigurasi"/>
+</menu>

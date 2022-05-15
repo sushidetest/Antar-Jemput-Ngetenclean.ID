@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/jemput"
+        android:icon="@drawable/kurir"
+        android:title="Jemput"/>
+    <item
+        android:id="@+id/antar"
+        android:icon="@drawable/kurir"
+        android:title="Antar"/>
+    <item
+        android:id="@+id/konfig"
+        android:icon="@drawable/setting"
+        android:title="Konfigurasi"/>
+</menu>

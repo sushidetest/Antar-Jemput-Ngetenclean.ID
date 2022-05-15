@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".TampilManNav">
+
+    <LinearLayout
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:padding="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <Button
+            android:id="@+id/back"
+            android:background="@drawable/back"
+            android:layout_width="30dp"
+            android:layout_height="30dp"/>
+        <TextView
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:text="Detail Order"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:background="@drawable/main_bg"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:padding="5dp">
+
+            <TextView
+                android:id="@+id/kd"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Kode Transaksi"
+                android:textSize="17sp"/>
+            <TextView
+                android:id="@+id/nama"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Nama"
+                android:textSize="17sp"/>
+            <TextView
+                android:id="@+id/alamat"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Alamat"
+                android:textSize="17sp"/>
+            <TextView
+                android:id="@+id/no_hp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Nomor HP"
+                android:textSize="17sp"/>
+            <TextView
+                android:id="@+id/paket"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Treatment"
+                android:textSize="17sp"/>
+            <TextView
+                android:id="@+id/tgl_pesan"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Pesan pada Tanggal"
+                android:textSize="17sp"/>
+            <TextView
+                android:id="@+id/status"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Status"
+                android:textSize="17sp"/>
+            <TextView
+                android:id="@+id/status_bayar"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Setatus Bayar"
+                android:textSize="17sp"/>
+            <TextView
+                android:id="@+id/kd_sepatu"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Kode Sepatu"
+                android:textSize="17sp"/>
+            <TextView
+                android:id="@+id/kurir"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Kurir"
+                android:textSize="17sp"/>
+            <TextView
+                android:id="@+id/biaya"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Biaya Treatment"
+                android:textSize="17sp"/>
+            <TextView
+                android:id="@+id/jml_sepatu"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Jumlah Sepatu"
+                android:textSize="17sp"/>
+            <TextView
+                android:id="@+id/total"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Total"
+                android:textSize="17sp"/>
+            <fragment
+                android:id="@+id/maps"
+                android:name="com.google.android.gms.maps.SupportMapFragment"
+                android:layout_width="match_parent"
+                android:layout_height="250dp"/>
+            <Button
+                android:id="@+id/nav"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="Rute"/>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+                <Button
+                    android:id="@+id/bayar"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Konfirmasi Bayar"/>
+                <RelativeLayout
+                    android:layout_width="120dp"
+                    android:layout_height="wrap_content"/>
+                <Button
+                    android:id="@+id/selesai"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Selesai"/>
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">aplikasi</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="pesan">Pesan</string>
+    <string name="cek_pesan">Cek Pesan</string>
+    <string name="profile">Profile</string>
+    <string name="cek_pesanan">Cek Pesanan</string>
+    <string name="laporan_transaksi">Laporan Transaksi</string>
+    <string name="kofigurasi">Konfigurasi</string>
+    <string name="antar_jemput">Antar Jemput</string>
+    <string name="fragment_pesan">Fragment Pesan</string>
+    <string name="fragment_cek_pesan">Fragment Cek Pesan</string>
+    <string name="fragment_profile">Fragment Profile</string>
+    <string name="fragment_cek_pesanan">Fragment Cek Pesanan</string>
+    <string name="fragment_laporan_transaksi">Fragment Laporan Transaksi</string>
+    <string name="fragment_kofigurasi">Fragment Konfigurasi</string>
+    <string name="fragment_antar_jemput">Fragment Antar Jemput</string>
+    <string name="fragment_konfig">Fragment Konfig</string>
+    <string-array name="job">
+        <item>Kasir</item>
+        <item>Kurir</item>
+    </string-array>
+    <string name="google_maps_key">AIzaSyBecNFcNLllXWgvkgNELZjj0zIi4qHW4Fs</string>
+</resources>

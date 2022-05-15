@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/pesan"
+        android:icon="@drawable/pesan"
+        android:title="@string/pesan"/>
+    <item
+        android:id="@+id/cek_pesan"
+        android:icon="@drawable/cek"
+        android:title="@string/cek_pesan"/>
+    <item
+        android:id="@+id/profile"
+        android:icon="@drawable/setting"
+        android:title="@string/profile"/>
+</menu>

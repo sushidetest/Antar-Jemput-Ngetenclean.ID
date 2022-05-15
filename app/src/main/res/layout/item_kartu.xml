@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="6dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="6dp">
+
+        <TextView
+            android:id="@+id/id"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:visibility="gone"/>
+        <TextView
+            android:id="@+id/nama"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Nama"
+            android:textSize="19sp"/>
+        <TextView
+            android:id="@+id/paket"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Treatment"
+            android:textSize="19sp"/>
+        <TextView
+            android:id="@+id/tgl_pesan"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Pesan pada Tanggal"
+            android:textSize="19sp"/>
+        <TextView
+            android:id="@+id/status"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Status"
+            android:textSize="19sp"/>
+        <TextView
+            android:id="@+id/status_bayar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Setatus Bayar"
+            android:textSize="19sp"/>
+        <TextView
+            android:id="@+id/kurir"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Kurir"
+            android:textSize="19sp"/>
+        <TextView
+            android:id="@+id/nomor"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Nomor HP"
+            android:textSize="19sp"/>
+        <TextView
+            android:id="@+id/biaya"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Biaya Treatment"
+            android:textSize="19sp"/>
+        <TextView
+            android:id="@+id/jml_sepatu"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Jumlah Sepatu"
+            android:textSize="19sp"/>
+        <TextView
+            android:id="@+id/total"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Total"
+            android:textSize="19sp"/>
+
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>
